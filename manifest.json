@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Viewport Fixer",
+  "version": "0.1",
+  "author": "Ofir Kerker",
+  "homepage_url": "https://github.com/kerkero/chrome-viewport-fixer",
+  "description": "A plain text description",
+  "icons" : {
+    "128" : "icons/ba_128.png",
+    "48" : "icons/ba_48.png",
+    "16" : "icons/ba_16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/ba_19.png",
+      "38": "icons/ba_38.png"
+    },
+    "default_title": "Codota | My CodeBox"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": { 
+    "scripts": ["jquery.js", "bg.js"] 
+  },
+  "offline_enabled": true
+}
