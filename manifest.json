@@ -15,7 +15,7 @@
       "19": "icons/ba_19.png",
       "38": "icons/ba_38.png"
     },
-    "default_title": "Codota | My CodeBox"
+    "default_title": "Click here to fix viewport"
   },
   "permissions": [
     "tabs"
